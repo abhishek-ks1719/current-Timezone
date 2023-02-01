@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo Location</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="appContainer">
+        <article>
+            <header>
+                <h1>TimeZone API</h1>
+                <h1>Your Current Time Zone</h1>
+            </header>
+        </article>
+        <div class="result">
+            <div class="defaultDetails">
+                <p>Name Of Time Zone :&nbsp;<span></span></p>
+                <div class="cordinates">
+                    <p>Lat :&nbsp;<span></span></p>
+                    <p>Long :&nbsp;<span></span></p>
+                </div>
+                <p>Offset STD :&nbsp;<span></span></p>
+                <p>Offset STD Seconds :&nbsp;<span></span></p>
+                <p>Offset DST :&nbsp;<span></span></p>
+                <p>Offset DST Seconds :&nbsp;<span></span></p>
+                <p>Country :&nbsp;<span></span></p>
+                <p>Postcode :&nbsp;<span></span></p>
+                <p>City :&nbsp;<span></span></p>
+            </div>
+        </div>
+        <div class="userInputContainer">
+            <div class="header">
+                <h2 style="color: #fed9b7;">Enter Address</h2>
+                <i class="fa fa-search" aria-hidden="true"><input type="search" id="input" placeholder="Enter address here..."></i>
+                <button id="searchBtn">Submit</button>
+            </div>
+            <div class="result">
+                <h2 style="color: #fed9b7;">Your result</h2>
+                <div id="container">
+                </div>
+        </div>
+    </div>
+</body>
+
+</html>
